@@ -1,0 +1,3 @@
+rootProject.name = 'android-jar-plugin'
+
+include 'jar-plugin'
