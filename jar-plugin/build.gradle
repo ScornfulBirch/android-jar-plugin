@@ -13,8 +13,8 @@ group = "com.lockwood"
 version = "1.0.0"
 
 pluginBundle {
-    website = "https://github.com/ScornfulBirch/nier"
-    vcsUrl = "https://github.com/ScornfulBirch/nier.git"
+    website = "https://github.com/ScornfulBirch/android-jar-plugin"
+    vcsUrl = "https://github.com/ScornfulBirch/android-jar-plugin.git"
     tags = ["android"]
 }
 
