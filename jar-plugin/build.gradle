@@ -10,7 +10,7 @@ repositories {
 }
 
 group = "com.lockwood"
-version = "1.0.0"
+version = "1.0.1"
 
 pluginBundle {
     website = "https://github.com/ScornfulBirch/android-jar-plugin"

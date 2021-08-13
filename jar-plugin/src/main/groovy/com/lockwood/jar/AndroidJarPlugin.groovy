@@ -6,7 +6,18 @@ import org.gradle.api.file.ConfigurableFileCollection
 
 // Based on:
 // https://github.com/stepango/android-jar/blob/master/src/main/java/com/stepango/androidjar/AndroidJar.kt
-
+/**
+ * Gradle plugin which will find your android.jar
+ *
+ * In your root build.gradle add
+ *
+ * plugins {
+ *  id 'com.lockwood.jar' version “1.0.1”
+ * }
+ *
+ * ext.androidJar = androidJar.find(targetSdkVersion)
+ *
+ */
 class AndroidJarPlugin implements Plugin<Project> {
 
     @Override
