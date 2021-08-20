@@ -9,7 +9,7 @@ repositories {
     mavenCentral()
 }
 
-group = "com.lockwood"
+group = "com.github.lockwood"
 version = "1.0.1"
 
 pluginBundle {
@@ -21,10 +21,10 @@ pluginBundle {
 gradlePlugin {
     plugins {
         androidJarPlugin {
-            id = "com.lockwood.jar"
+            id = "com.github.lockwood.jar"
             displayName = "Android Jar Plugin"
             description = "Gradle plugin which will find your android.jar"
-            implementationClass = "com.lockwood.jar.AndroidJarPlugin"
+            implementationClass = "com.github.lockwood.jar.AndroidJarPlugin"
         }
     }
 }
